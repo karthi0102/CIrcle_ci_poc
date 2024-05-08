@@ -1,11 +1,9 @@
 jobs:
   build:
     steps:
-      - checkout
       - run: echo "this is the build job"
   test:
     steps:
-      - checkout
       - run: echo "this is the test job"
 
 # Orchestrate our job run sequence
